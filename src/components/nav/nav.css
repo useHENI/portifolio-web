@@ -1,0 +1,113 @@
+.nav {
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    margin-bottom: -70px !important;
+    transition: all 0.5s; 
+	transition-timing-function: ease-in;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+.nav__black {
+    background-color: rgb(44, 43, 57);
+    
+}
+
+.logo {
+    padding-left: 8% ;
+    padding-top: 18px;
+    justify-content: center;
+}
+.logo img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.nav__link ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.nav__link ul {
+    list-style: none;
+    padding-top: 18px;
+    
+}
+.nav__link ul li a:hover {
+    
+    border-bottom: 3px solid rgb(255, 158, 27);
+    border-radius: 2px;
+    background-origin: padding-box 5px;
+}
+
+.icon {
+    color: rgb(209, 126, 17);
+    display: none;
+}
+
+.nav__link ul li:hover,
+.icon:hover {
+    color: rgb(255, 158, 27);
+}
+
+@media screen and (max-width: 992px) {
+    .icon { 
+        display: block;
+        padding-top: 18px;
+    }
+    .nav {
+        background-color: #2a2a36;
+    }
+    
+    .nav__link ul li:hover {
+    
+        border-bottom: 3px solid rgb(255, 158, 27);
+        border-radius: 2px;
+        background-origin: padding-box 5px;
+    }
+
+    .navbar-list {
+        padding: 0;
+        margin: 0;
+        background-color: #2a2a36;
+    }
+    .nav__link ul {
+        justify-content: center;
+        padding-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav__link ul li {
+        padding-left: 8%;
+        padding: 10px 0;
+        color: rgb(255, 158, 27);
+    }
+    .navbar-list {
+        background-color: #2a2a36;
+        list-style: none;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .navbar-list.show {
+        
+        height: auto; 
+        opacity: 1; 
+      }
+   
+}
+
+@media screen and (max-width: 600px) {
+    .logo img {
+        height: 23px;
+        object-fit: contain;
+    }
+}

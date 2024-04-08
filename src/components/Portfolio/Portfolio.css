@@ -1,0 +1,349 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    color: white;
+    padding: 30px 0;
+}
+
+
+.row {
+    padding: 0;
+    gap: 0;
+    margin: 0;
+}
+
+.po-container {
+    padding: 0 0 50px 3%;
+
+}
+
+.po-container h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.container .poimg img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.po .link {
+    margin-top: -85%;
+}
+.po #link {
+    margin-top: -70%;
+}
+.link, 
+#link {
+    display: none;
+}
+.poimg {
+    width: 395px;
+    height: 395px;
+    position: relative;
+}
+
+.po:hover {
+    .gradient {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#1b1b1b,   rgba(107, 107, 107, 0.87), #1b1b1b);
+        opacity: 0.9;
+        position: absolute;
+    }
+#link,
+.link {
+    display: block;
+    position: relative;
+    
+}
+}
+
+#link a,
+.link a {
+    text-decoration: none;
+    border: 1px solid #eaeaec;
+    border-radius: 0;
+    padding: 2px 20px;
+    color: #111;
+    margin-top: 20px;
+    font-size: 20px;
+
+    background-color: #eaeaec;
+}
+
+#link a:hover,
+.link a:hover {
+    background-color: rgb(44, 43, 57);
+    border-color: rgb(44, 43, 57);
+    color: #fff;
+}
+.portfolio .title {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 0;
+    
+}
+
+.portfolio .p1 ,
+.p2 ,
+.p3 {
+    padding-bottom: 20px;
+    
+}
+
+@media screen and (max-width: 1350px) {
+    .po-container {
+        padding: 50px 0 50px 0;
+    }
+    .poimg {
+        width: 350px;
+        height: 350px;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .poimg {
+        width: 450px;
+        height: 450px;
+        position: relative;
+    }
+    .po {
+        margin-bottom: 10px;
+    }
+    .portfolio .p3 {
+        padding-bottom: 0;
+    }
+    .portfolio .title {
+        font-size: 35px;
+        
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .poimg {
+        width: 610px;
+        height: 610px;
+        position: relative;
+    }
+    .po {
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .p1 #link #vilink,
+    .p3 #link #vilink {
+        margin-bottom: -5px;
+        
+    }
+    .portfolio .title {
+        font-size: 50px;
+        padding: 0 0 50px 65px;
+        width: 560px;
+    }
+    #link a,
+    .link a {
+        font-size: 30px;
+        margin-bottom: 0;
+    } 
+    #link ,
+    .link {
+        margin-bottom: 112px;
+    }
+    .portfolio #gitlink {
+        margin-bottom: 184px;
+    }
+    #vilink ,
+    #vlink,
+    #gitlink {
+        padding-left: 15%;
+    }
+    .portfolio {
+        margin-left: 5%;
+        gap: 10px;
+    }
+    .portfolio .p1 ,
+    .p2 ,
+    .p3 {
+    padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .gradient {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#1b1b1b,   rgba(107, 107, 107, 0.87), #1b1b1b);
+        opacity: 0.9;
+        position: absolute;
+    }
+    .poimg {
+        width: 480px;
+        height: 480px;
+        position: relative;
+    }
+    .portfolio .title {
+        font-size: 30px;
+        padding-left: 7%;
+        width: 450px;
+    }
+    #link a,
+    .link a {
+        font-size: 20px;
+        margin-bottom: 0;
+    } 
+    #link ,
+    .link {
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .portfolio {
+        margin-left: 20px;
+        gap: 20px;
+    }
+    .portfolio #gitlink {
+        margin-bottom: 185px;
+        
+    }
+    .portfolio #vlink {
+        margin-bottom: 115px;
+    }
+    #vilink ,
+    #vlink,
+    #gitlink {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .gradient {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#1b1b1b,   rgba(107, 107, 107, 0.87), #1b1b1b);
+        opacity: 0.9;
+        position: absolute;
+    }
+    .poimg {
+        width: 380px;
+        height: 380px;
+        position: relative;
+    }
+    .portfolio .title {
+        padding-bottom: 10px;
+        width: 350px;
+    }
+    #link a,
+    .link a {
+        font-size: 20px;
+        margin-bottom: 0;
+    } 
+    #link ,
+    .link {
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .portfolio {
+        gap: 20px;
+    }
+
+    #vilink ,
+    #vlink,
+    #gitlink {
+        width: 330px;
+        padding-left: 10%;
+        
+    }
+
+    .portfolio {
+        margin-left: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+    .po {
+        padding-left: 0;
+        width: 380px;
+        height: 380px;
+        position: relative;
+    }
+
+    .gradient {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#1b1b1b,   rgba(107, 107, 107, 0.87), #1b1b1b);
+        opacity: 0.9;
+        position: absolute;
+    }
+    #link,
+    .link {
+    display: block;
+    position: relative;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .gradient {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#1b1b1b,   rgba(107, 107, 107, 0.87), #1b1b1b);
+        opacity: 0.9;
+        position: absolute;
+    }
+    .poimg {
+        width: 330px;
+        height: 330px;
+        position: relative;
+    }
+
+    .portfolio .title {
+        padding-left: 25px;
+        width: 300px;
+    }
+
+    #vilink ,
+    #vlink,
+    #gitlink {
+        width: 300px;
+        padding-left: 10%;
+    }
+
+    .po {
+        width: 330px;
+        height: 330px;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .poimg {
+        width: 280px;
+        height: 280px;
+        position: relative;
+    }
+    .portfolio .title {
+        font-size: 20px;
+
+        width: 270px;
+    }
+
+    #vilink ,
+    #vlink,
+    #gitlink {
+        width: 280px;
+        padding-left: 5px;
+    }
+    .po {
+        width: 270px;
+        height: 270px;
+        position: relative;
+    }
+
+} 
