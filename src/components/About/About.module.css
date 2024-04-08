@@ -140,4 +140,9 @@
     .resume button {
         width: 45%;
     }
+    .img img {
+        width: 330px;
+        object-fit: contain;
+        
+    }
 }

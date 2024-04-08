@@ -66,6 +66,9 @@
     .nav {
         background-color: #2a2a36;
     }
+    .nav__link ul li a:hover {
+        border-bottom: none;
+    }
     
     .nav__link ul li:hover {
     
